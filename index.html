@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa; 
+            color: #343a40; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #343a40; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #343a40; 
+            color: white;
+            padding: 10px;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        footer {
+            background-color: #343a40; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        #aaa{
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .card {
+            background-color: #ffffff; 
+            border: 1px solid #dee2e6; 
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card img {
+            max-width: 100%;
+            height:50vh;
+            border-radius: 8px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h2 {
+            color: #343a40; 
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue button color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #0056b3; 
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff; 
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .card {
+                padding: 15px;
+            }
+       
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Web Developer Portfolio</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li><a id="aaa" class="nav-link" href="./abbos1.html">paketlar</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#">Turli janrdagi kitoblarning katta tanlovi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sovg'a kartalari</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Forumlar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Jonli muhokama guruhlari</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Boshqa xizmatlar</a></li>
+                    <li><a id="aaa" class="nav-link" href="./abbos1.html">Aloqa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <h2>Turli janrdagi kitoblarning katta tanlovi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero vel erat venenatis fermentum a sed libero.</p>
+                <img src="./pexels-photo-158834.jpeg" alt="Book Image" class="img-fluid">
+            </div>
+
+            <div class="card">
+                <h2>Sovg'a kartalari</h2>
+                <p>Curabitur eu ligula in leo bibendum cursus in vel justo. Duis ac urna ac arcu interdum consequat.</p>
+                <img src="./pexels-photo-415078.jpeg" alt="Gift Card Image" class="img-fluid">
+            </div>
+
+            <div class="card">
+                <h2>Forumlar</h2>
+                <p>Phasellus eget nunc id lacus finibus facilisis. Vestibulum eu ultricies risus, non rhoncus lacus.</p>
+                <img src="./pexels-photo-1907785.jpeg" alt="Forum Image" class="img-fluid">
+            </div>
+
+            <div class="card">
+                <h2>Jonli muhokama guruhlari</h2>
+                <p>Nulla facilisi. Fusce et facilisis velit. Sed vel lacus ac neque tincidunt feugiat ut a nunc.</p>
+                <img src="./pexels-photo-433333.webp" alt="Discussion Image" class="img-fluid">
+            </div>
+
+            <div class="card">
+                <h2>Boshqa xizmatlar</h2>
+                <ul>
+                    <li><a href="#" class="text-decoration-none">Ichimliklar qutisi</a></li>
+                    <li><a href="#" class="text-decoration-none">A’zoning bu oydagi kitobi</a></li>
+                    <li><a href="#" class="text-decoration-none">Savdo-sotiq</a></li>
+                    <li><a href="#" class="text-decoration-none">Kitobni xayriya qilish</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 yilda ishlab chiqdim
+        </footer>
+
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    </body>
+    </html>
+    
